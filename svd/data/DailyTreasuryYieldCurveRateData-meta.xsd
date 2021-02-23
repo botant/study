@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/ado/2007/08/dataservices"  schemaLocation="DailyTreasuryYieldCurveRateData-svcs.xsd"/>
+  <xs:element name="properties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q1:Id" />
+        <xs:element xmlns:q2="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q2:NEW_DATE" />
+        <xs:element xmlns:q3="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q3:BC_1MONTH" />
+        <xs:element xmlns:q4="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q4:BC_2MONTH" />
+        <xs:element xmlns:q5="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q5:BC_3MONTH" />
+        <xs:element xmlns:q6="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q6:BC_6MONTH" />
+        <xs:element xmlns:q7="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q7:BC_1YEAR" />
+        <xs:element xmlns:q8="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q8:BC_2YEAR" />
+        <xs:element xmlns:q9="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q9:BC_3YEAR" />
+        <xs:element xmlns:q10="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q10:BC_5YEAR" />
+        <xs:element xmlns:q11="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q11:BC_7YEAR" />
+        <xs:element xmlns:q12="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q12:BC_10YEAR" />
+        <xs:element xmlns:q13="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q13:BC_20YEAR" />
+        <xs:element xmlns:q14="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q14:BC_30YEAR" />
+        <xs:element xmlns:q15="http://schemas.microsoft.com/ado/2007/08/dataservices" ref="q15:BC_30YEARDISPLAY" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:attribute name="type" type="xs:string" />
+</xs:schema>
